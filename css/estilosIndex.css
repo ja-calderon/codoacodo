@@ -1,0 +1,128 @@
+:root {
+  --fuentePrincipal: "Cuprum", sans-serif;
+  --fuenteSecundaria: "Varela Round", sans-serif;
+  --fuenteAlternativa: "Schibsted Grotesk", sans-serif;
+  --colorCabecera: #181e25;
+  --colorLetra: #cdd5df;
+}
+
+body {
+
+  
+  margin: 0;
+}
+.cabecera {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 0 1rem;
+  background-color: var(--colorCabecera);
+}
+.cabeceraTitulo h1 {
+  font-family: var(--fuentePrincipal);
+  font-size: 4vw;
+  color: var(--colorLetra);
+  
+}
+.cabeceraEnlaces {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 0 1vw;
+  color: var(--colorLetra);
+}
+.cabeceraEnlacesItem {
+  margin: 0 1vw;
+  font-family: var(--fuenteSecundaria);
+}
+/* .bannerPortada div{
+  border-top: 0 solid transparent;
+	border-left: 100vh solid var(--colorCabecera);
+	border-bottom: 5rem solid transparent;
+} */
+.bannerPortada{
+  display: block;
+  width: 100vw;
+  height: 60vh;
+  background-image:url(/img/fondo.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+/* .cuerpo {
+
+} */
+.subtitulo{
+  font-family: var(--fuenteAlternativa);
+  font-size: 2vw;
+  text-align: center;
+  color: var(--colorLetra);
+  background-color: var(--colorCabecera);
+  padding: 1.3vw;
+}
+
+.contenedor-tarjetas {
+  max-width: 1400px;
+  display: grid; 
+  grid-template-columns: 17% 17% 17% 17%; 
+  grid-template-rows: 1fr; 
+  gap: 1% 1%;
+  justify-content: center;
+  align-content: center; 
+  padding: 1rem;
+  margin: auto;
+}
+
+.card {
+  height: 40vh;
+  max-width: 13rem;
+  max-height: 25rem;
+  flex-grow: 1vw;
+  display: grid;
+  grid-template-columns: 1fr; 
+  grid-template-rows: 88% 7%;
+  align-items: stretch;
+  background-color: #455857;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden
+}
+
+.card img {
+  width: 100%;
+  object-fit:cover;
+  border-radius: 10px;
+  margin-bottom: .5vh;
+}
+
+.card a {
+  display: inline-block;
+  width: 98%;
+  height: 98%;
+  text-decoration: none;
+  padding: 1%;
+}
+.card a h3{
+  font-family: var(--fuentePrincipal);
+  font-weight: 600;
+  text-align: center;
+  color: var(--colorLetra);
+  width: 100%; 
+  font-size: 1rem;
+  margin: 0;
+}
+
+.piePagina {
+  background-color: var(--colorCabecera);
+  color: var(--colorLetra);
+  font-family: var(--fuenteSecundaria);
+  height: auto;
+  padding: 3vh;
+}

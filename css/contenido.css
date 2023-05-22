@@ -1,0 +1,163 @@
+:root {
+    --fuentePrincipal: "Cuprum", sans-serif;
+    --fuenteSecundaria: "Varela Round", sans-serif;
+    --colorCabecera: #181e25;
+    --colorLetra: #cdd5df;
+  }
+  
+  body {
+  
+    
+    margin: 0;
+  }
+  .cabecera {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding:  1vw;
+    background-color: var(--colorCabecera);
+  }
+  .cabeceraTitulo a{
+    font-family: var(--fuentePrincipal);
+    font-size: 1.5vw;
+    color: var(--colorLetra);
+    text-decoration: none;
+}
+
+  .cabeceraEnlaces {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    color: var(--colorLetra);
+  }
+  .cabeceraEnlacesItem {
+    margin: 0 .5vw;
+    font-family: var(--fuenteSecundaria);
+    font-size: 1.5vw;
+  }
+
+
+  /* .cuerpo {
+  
+  } */
+  .contenedorMedia{
+    margin: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  .pelicula {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    max-width: 80%;
+  }
+
+  .tituloPelicula{
+    font-family: var(--fuentePrincipal);
+    font-size: 3vw;
+    width: 100%;
+    text-align: center;
+    color: #cdd5df;
+    background-color: #181e25;
+    padding: 1vw 0;
+  }
+
+  .infoPelicula {
+    display: flex;
+    gap: 1vw;
+    width: 80vw;
+    align-items: flex-start;
+    padding: 1vw;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+  
+  .infoPelicula img {
+    max-width: 20vw;
+    padding: 1.2vw;
+    object-fit:scale-down;
+    filter: drop-shadow(0.5vw 1vw 1.5vw rgb(71, 70, 70));
+  }
+  .datosPelicula{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+  }
+  .datosPelicula p{
+    font-family: var(--fuenteSecundaria);
+    text-align: justify;
+    font-size: max(1vw, 1px);
+
+    width: 50vw;
+   
+  }
+  .video{
+    padding: 1vw;
+    width: 40vw;
+    aspect-ratio: 16/9;
+    border: none;
+    filter: drop-shadow(0.5vw 1vw 1.2vw rgb(71, 70, 70));
+  }
+  /*API */
+  .infoApi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tituloReparto{
+    font-family: var(--fuenteSecundaria);
+  }
+  .carrousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:nowrap;
+    width: 100vw;
+    margin: 1.2vw 0;
+  }
+  
+  .contenedorActor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 13%;
+    margin: .5vw;
+    padding: 0;
+    text-align: center;
+    background-color: var(--colorLetra);
+  }
+  
+  .contenedorActor img {
+    padding: 0;
+    width: 13vw;
+    margin: 0 0 .5vw 0;
+    height: auto;
+  }
+  
+  .contenedorActor p {
+    margin: .5vw 0;
+    font-size: 1.2vw;
+    font-family: var(--fuenteSecundaria);
+  }
+  .contenedorActor p:first {
+    font-weight: 900;
+  }
+  
+  .piePagina {
+    background-color: var(--colorCabecera);
+    color: var(--colorLetra);
+    font-family: var(--fuenteSecundaria);
+    height: auto;
+    padding: 3vh;
+  }
+  
