@@ -1,5 +1,5 @@
 
-fetch('datos.json')
+fetch('datosPelicula.json')
   .then(response => response.json())
   .then(json => {
     // Obtener el ID del parámetro de la URL

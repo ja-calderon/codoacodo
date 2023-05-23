@@ -2,7 +2,7 @@
 const contenedorTarjetas = document.getElementById("contenedor-tarjetas");
 
 if (contenedorTarjetas) {
-  fetch("datos.json")
+  fetch("datosPelicula.json")
     .then((response) => response.json())
     .then((data) => {
       data.forEach((elemento) => {

@@ -1,0 +1,22 @@
+﻿[
+  {
+    "clave": "1",
+    "busqueda": "Seinfeld",
+    "titulo": "Seinfeld",
+    "enlace": "./descripcionSerie.html",
+    "contenido": "Seinfeld es una famosa serie de televisión estadounidense que se emitió originalmente entre 1989 y 1998. Creada por Larry David y Jerry Seinfeld, la serie se centra en la vida cotidiana de un grupo de amigos en la ciudad de Nueva York",
+    "imagen": "./img/seriesposter/seinfeld.webp",
+    "opinion": "Seinfeld es una famosa serie de televisión estadounidense que se emitió originalmente entre 1989 y 1998. Creada por Larry David y Jerry Seinfeld, la serie se centra en la vida cotidiana de un grupo de amigos en la ciudad de Nueva York. El personaje principal es Jerry Seinfeld, quien interpreta una versión ficticia de sí mismo, un comediante de stand-up. Sus amigos incluyen a George Costanza, un hombre neurótico y torpe; Elaine Benes, una mujer inteligente y sarcástica; y Cosmo Kramer, un vecino excéntrico y lleno de energía. Juntos, atraviesan una serie de situaciones cómicas y enredos absurdos mientras lidian con temas que van desde las citas y las relaciones hasta los problemas en el trabajo y las peculiaridades de la vida urbana. Una de las características distintivas de Seinfeld es su estilo único de comedia sobre la nada, en el que los episodios se centran en situaciones aparentemente triviales y mundanas, pero se exploran de manera humorística e ingeniosa. La serie es conocida por su diálogo rápido, sus personajes memorables y su habilidad para encontrar humor en lo ordinario. Seinfeld ha sido aclamada tanto por la crítica como por el público, y se considera una de las mejores comedias de situación de todos los tiempos. Su impacto en la cultura popular es innegable, y su legado perdura hasta el día de hoy, influyendo en numerosas series de televisión posteriores.",
+    "link ": "https://www.youtube.com/embed/hQXKyIG_NS4 "
+  },
+  {
+    "clave": "2",
+    "busqueda": "Dark",
+    "titulo": "Dark",
+    "enlace": "./descripcionSerie.html",
+    "contenido": "Dark es una serie de televisión alemana de género dramático y de ciencia ficción creada por Baran bo Odar y Jantje Friese. Ambientada en la pequeña ciudad de Winden, la serie se sumerge en un intrincado laberinto de viajes en el tiempo, misterios familiares y oscuros secretos que se entrelazan a lo largo de varias generaciones.",
+    "imagen": "./img/seriesposter/dark.jpg",
+    "opinion": "Dark es una serie de televisión alemana de género dramático y de ciencia ficción creada por Baran bo Odar y Jantje Friese. Ambientada en la pequeña ciudad de Winden, la serie se sumerge en un intrincado laberinto de viajes en el tiempo, misterios familiares y oscuros secretos que se entrelazan a lo largo de varias generaciones. La trama comienza cuando un niño llamado Erik desaparece misteriosamente, desencadenando una serie de eventos que revelan conexiones sorprendentes entre cuatro familias locales. A medida que la historia se desarrolla, se descubre que la ciudad es un punto focal en una red temporal, y sus habitantes están atrapados en un ciclo interminable de acontecimientos trágicos que se repiten una y otra vez. A lo largo de tres temporadas, Dark se adentra en los complejos vínculos familiares y los secretos ocultos de los personajes, mientras explora temas profundos como la causalidad, la paradoja temporal y la dualidad del bien y el mal. La serie se desarrolla en diferentes líneas temporales y muestra cómo las acciones y decisiones de cada individuo tienen repercusiones que se extienden a través del tiempo. La atmósfera de Dark es intensa y sombría, acentuada por una cinematografía oscura y una música evocadora. Los actores brindan interpretaciones convincentes y llenas de matices, sumergiéndose en los complejos conflictos emocionales de sus personajes. A medida que los enigmas se van desvelando, la serie plantea preguntas existenciales sobre el destino, la identidad y la moralidad. Con giros sorprendentes y revelaciones impactantes, Dark se convierte en una experiencia cautivadora y adictiva para los espectadores, que se ven inmersos en un viaje apasionante a través del tiempo y el espacio. Dark destaca por su narrativa intrincada y meticulosamente construida, que requiere una atención cuidadosa por parte del espectador. Es una serie que desafía las convenciones del género y ofrece una exploración profunda y reflexiva sobre los temas de la existencia humana y la trascendencia del tiempo.",
+    "link ": "https://www.youtube.com/embed/14FGjkrrXFk "
+  }
+]
