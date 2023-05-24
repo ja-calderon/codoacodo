@@ -78,6 +78,24 @@ body {
   padding: 1rem;
   margin: auto;
 }
+.textoBusqueda {
+  font-size: 2rem;
+  display: block;
+  height: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid #000; /* Cambia el color a tu preferencia */
+  width: 80%; /* Ajusta el ancho según tus necesidades */
+  padding: 5px;
+}
+.textoBusqueda:focus {
+  outline: none;
+  border-bottom-color: transparent;
+}
+.textoBusqueda::placeholder {
+  font-size: 2rem;
+}
 
 .card {
   height: 40vh;

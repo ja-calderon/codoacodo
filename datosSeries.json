@@ -7,7 +7,7 @@
     "contenido": "Seinfeld es una famosa serie de televisión estadounidense que se emitió originalmente entre 1989 y 1998. Creada por Larry David y Jerry Seinfeld, la serie se centra en la vida cotidiana de un grupo de amigos en la ciudad de Nueva York",
     "imagen": "./img/seriesposter/seinfeld.webp",
     "opinion": "Seinfeld es una famosa serie de televisión estadounidense que se emitió originalmente entre 1989 y 1998. Creada por Larry David y Jerry Seinfeld, la serie se centra en la vida cotidiana de un grupo de amigos en la ciudad de Nueva York. El personaje principal es Jerry Seinfeld, quien interpreta una versión ficticia de sí mismo, un comediante de stand-up. Sus amigos incluyen a George Costanza, un hombre neurótico y torpe; Elaine Benes, una mujer inteligente y sarcástica; y Cosmo Kramer, un vecino excéntrico y lleno de energía. Juntos, atraviesan una serie de situaciones cómicas y enredos absurdos mientras lidian con temas que van desde las citas y las relaciones hasta los problemas en el trabajo y las peculiaridades de la vida urbana. Una de las características distintivas de Seinfeld es su estilo único de comedia sobre la nada, en el que los episodios se centran en situaciones aparentemente triviales y mundanas, pero se exploran de manera humorística e ingeniosa. La serie es conocida por su diálogo rápido, sus personajes memorables y su habilidad para encontrar humor en lo ordinario. Seinfeld ha sido aclamada tanto por la crítica como por el público, y se considera una de las mejores comedias de situación de todos los tiempos. Su impacto en la cultura popular es innegable, y su legado perdura hasta el día de hoy, influyendo en numerosas series de televisión posteriores.",
-    "link ": "https://www.youtube.com/embed/hQXKyIG_NS4 "
+    "link": "https://www.youtube.com/embed/hQXKyIG_NS4 "
   },
   {
     "clave": "2",
@@ -17,6 +17,26 @@
     "contenido": "Dark es una serie de televisión alemana de género dramático y de ciencia ficción creada por Baran bo Odar y Jantje Friese. Ambientada en la pequeña ciudad de Winden, la serie se sumerge en un intrincado laberinto de viajes en el tiempo, misterios familiares y oscuros secretos que se entrelazan a lo largo de varias generaciones.",
     "imagen": "./img/seriesposter/dark.jpg",
     "opinion": "Dark es una serie de televisión alemana de género dramático y de ciencia ficción creada por Baran bo Odar y Jantje Friese. Ambientada en la pequeña ciudad de Winden, la serie se sumerge en un intrincado laberinto de viajes en el tiempo, misterios familiares y oscuros secretos que se entrelazan a lo largo de varias generaciones. La trama comienza cuando un niño llamado Erik desaparece misteriosamente, desencadenando una serie de eventos que revelan conexiones sorprendentes entre cuatro familias locales. A medida que la historia se desarrolla, se descubre que la ciudad es un punto focal en una red temporal, y sus habitantes están atrapados en un ciclo interminable de acontecimientos trágicos que se repiten una y otra vez. A lo largo de tres temporadas, Dark se adentra en los complejos vínculos familiares y los secretos ocultos de los personajes, mientras explora temas profundos como la causalidad, la paradoja temporal y la dualidad del bien y el mal. La serie se desarrolla en diferentes líneas temporales y muestra cómo las acciones y decisiones de cada individuo tienen repercusiones que se extienden a través del tiempo. La atmósfera de Dark es intensa y sombría, acentuada por una cinematografía oscura y una música evocadora. Los actores brindan interpretaciones convincentes y llenas de matices, sumergiéndose en los complejos conflictos emocionales de sus personajes. A medida que los enigmas se van desvelando, la serie plantea preguntas existenciales sobre el destino, la identidad y la moralidad. Con giros sorprendentes y revelaciones impactantes, Dark se convierte en una experiencia cautivadora y adictiva para los espectadores, que se ven inmersos en un viaje apasionante a través del tiempo y el espacio. Dark destaca por su narrativa intrincada y meticulosamente construida, que requiere una atención cuidadosa por parte del espectador. Es una serie que desafía las convenciones del género y ofrece una exploración profunda y reflexiva sobre los temas de la existencia humana y la trascendencia del tiempo.",
-    "link ": "https://www.youtube.com/embed/14FGjkrrXFk "
+    "link": "https://www.youtube.com/embed/14FGjkrrXFk "
+  },
+  {
+    "clave": "3",
+    "busqueda": "Breaking Bad",
+    "titulo": "Breaking Bad",
+    "enlace": "./descripcionSerie.html",
+    "contenido": "Breaking Bad es una aclamada serie de televisión estadounidense creada por Vince Gilligan. La historia se centra en Walter White, un profesor de química de secundaria que, después de ser diagnosticado con cáncer terminal, decide ingresar al mundo del narcotráfico para asegurar el futuro financiero de su familia.",
+    "imagen": "./img/seriesposter/Breaking.jpg",
+    "opinion": "Es una aclamada serie de televisión estadounidense creada por Vince Gilligan. La historia se centra en Walter White, un profesor de química de secundaria que, después de ser diagnosticado con cáncer terminal, decide ingresar al mundo del narcotráfico para asegurar el futuro financiero de su familia. Junto a Jesse Pinkman, un exestudiante suyo y traficante de drogas, Walter se adentra en el peligroso y violento mundo del crimen organizado, fabricando y vendiendo metanfetaminas de alta calidad. La serie explora la transformación de Walter de un hombre común y corriente en un poderoso y temido criminal, y las consecuencias que su nueva vida tiene en su familia y en sí mismo. Breaking Bad es reconocida por su guion brillante, personajes complejos y una tensión narrativa constante, ofreciendo un retrato crudo y emocionante de la moralidad y la autodestrucción.",
+    "link": "https://www.youtube.com/embed/YZWy7J1u9Wo"
+  },
+  {
+    "clave": "4",
+    "busqueda": "Better Call Saul",
+    "titulo": "Better Call Saul",
+    "enlace": "./descripcionSerie.html",
+    "contenido": "Esta serie es un spin-off de Breaking Bad y se centra en la vida del abogado Jimmy McGill, quien eventualmente se convierte en el abogado criminal Saul Goodman. Al igual ",
+    "imagen": "./img/seriesposter/saul.jpg",
+    "opinion": "Es un spin-off y precuela de Breaking Bad, creada también por Vince Gilligan y Peter Gould. La serie se centra en Jimmy McGill, un abogado con una ética cuestionable que lucha por encontrar su lugar en el mundo legal. Ambientada antes de los eventos de Breaking Bad, la serie explora la transformación de Jimmy en el abogado criminal Saul Goodman. A medida que Jimmy se involucra en el oscuro mundo de los delitos y las intrigas legales, la serie muestra su relación con personajes memorables, como el carismático Mike Ehrmantraut. Better Call Saul destaca por su narrativa meticulosa, personajes magnéticos y una exploración profunda de los dilemas morales y las motivaciones que impulsan a Jimmy a adoptar la identidad de Saul Goodman. La serie ofrece una mirada fascinante al universo de Breaking Bad desde una perspectiva diferente, y es apreciada tanto por los fanáticos de la serie original como por los nuevos espectadores.",
+    "link": "https://www.youtube.com/embed/Ylv21uNzW4k"
   }
 ]

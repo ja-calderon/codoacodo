@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Butaca Crítica</title>
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/contenido.css" />
+    <link rel="stylesheet" href="./css/estilosIndex.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
@@ -18,22 +18,20 @@
           <a href="./index.html"><h1>La Butaca Crítica</h1></a>
         </div>
         <div class="cabeceraEnlaces">
-          <h2 class="cabeceraEnlacesItem">Películas</h2>
-          <h2 class="cabeceraEnlacesItem">Series</h2>
-          <h2 class="cabeceraEnlacesItem">Contáctenos</h2>
+        <a href="./seccionSeries.html" class="cabeceraEnlacesItem"><h2>Series</h2></a>
+        <a href="" class="cabeceraEnlacesItem"><h2>Contáctenos</h2></a>
         </div>
       </header>
       <main class="cuerpo">
-        <section id="contenedorMedia" class="contenedorMedia"></section>
-        <section class="infoApi">
-          <h3 class="tituloReparto">REPARTO</h3>
-          <div id="carrouselImagenes" class="carrousel"></div>
+        <section id="contenedorMedia" class="contenedorMedia">
+            <input type="text" id="inputText" placeholder="Buscar películas" class="textoBusqueda">
+            <div id="contenedorPeliculas" class="contenedor-tarjetas"></div>
         </section>
+
       </main>
-      <footer>
-        
+      <footer class="piePagina">
+        <h1>Pie Pagina</h1>
       </footer>
-      <script src="./js/contenidoSeries.js"></script>
-      <script src="./js/apicreditosSeries.js"></script>
+      <script src="./js/seccionPeliculas.js"></script>
 </body>
 </html>

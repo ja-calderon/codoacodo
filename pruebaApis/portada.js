@@ -1,8 +1,8 @@
 
-const contenedorPeliculas = document.getElementById("contenedorPeliculas");
+const contenedorTarjetas = document.getElementById("contenedor-tarjetas");
 
-if (contenedorPeliculas) {
-  fetch("datosPelicula.json")
+if (contenedorTarjetas) {
+  fetch("datos.json")
     .then((response) => response.json())
     .then((data) => {
       data.forEach((elemento) => {
@@ -48,7 +48,7 @@ if (contenedorPeliculas) {
             pelicula.appendChild(enlace);
 
             // Agrega la tarjeta al contenedor principal
-            contenedorPeliculas.appendChild(pelicula);
+            contenedorTarjetas.appendChild(pelicula);
           })
           .catch((error) => {
             console.error("Error al procesar la respuesta de la API:", error);
@@ -59,5 +59,5 @@ if (contenedorPeliculas) {
       console.error("Error al cargar los datos:", error);
     });
 } else {
-  console.error("El elemento contenedorPeliculas no fue encontrado en el DOM.");
+  console.error("El elemento contenedor-tarjetas no fue encontrado en el DOM.");
 }
