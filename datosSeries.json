@@ -38,5 +38,45 @@
     "imagen": "./img/seriesposter/saul.jpg",
     "opinion": "Es un spin-off y precuela de Breaking Bad, creada también por Vince Gilligan y Peter Gould. La serie se centra en Jimmy McGill, un abogado con una ética cuestionable que lucha por encontrar su lugar en el mundo legal. Ambientada antes de los eventos de Breaking Bad, la serie explora la transformación de Jimmy en el abogado criminal Saul Goodman. A medida que Jimmy se involucra en el oscuro mundo de los delitos y las intrigas legales, la serie muestra su relación con personajes memorables, como el carismático Mike Ehrmantraut. Better Call Saul destaca por su narrativa meticulosa, personajes magnéticos y una exploración profunda de los dilemas morales y las motivaciones que impulsan a Jimmy a adoptar la identidad de Saul Goodman. La serie ofrece una mirada fascinante al universo de Breaking Bad desde una perspectiva diferente, y es apreciada tanto por los fanáticos de la serie original como por los nuevos espectadores.",
     "link": "https://www.youtube.com/embed/Ylv21uNzW4k"
+  },
+  {
+    "clave": "5",
+    "busqueda": "Friends",
+    "titulo": "Friends",
+    "enlace": "./descripcionSerie.html",
+    "contenido": "Friends es una exitosa serie de televisión estadounidense creada por David Crane y Marta Kauffman. La serie se centra en un grupo de seis amigos que viven en la ciudad de Nueva York y enfrentan juntos los altibajos de la vida y las relaciones.",
+    "imagen": "./img/seriesposter/friends.jpg",
+    "opinion": "Friends es una exitosa serie de televisión estadounidense creada por David Crane y Marta Kauffman. La serie se centra en un grupo de seis amigos que viven en la ciudad de Nueva York y enfrentan juntos los altibajos de la vida y las relaciones. Los personajes principales son Rachel Green, Monica Geller, Phoebe Buffay, Joey Tribbiani, Chandler Bing y Ross Geller, interpretados respectivamente por Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry y David Schwimmer. A lo largo de diez temporadas, Friends sigue las aventuras cómicas y emocionales de este grupo de amigos, desde sus experiencias laborales y amorosas hasta sus momentos de apoyo mutuo y risas compartidas. La serie es conocida por su humor inteligente, sus diálogos ingeniosos y su habilidad para abordar tanto situaciones hilarantes como temas más profundos de amistad, amor, lealtad y crecimiento personal. Friends se ha convertido en un fenómeno cultural y sigue siendo popular entre los espectadores de todas las edades hasta el día de hoy. Su elenco carismático y las relaciones entre los personajes han dejado una marca indeleble en la televisión y se considera una de las mejores comedias de situación de todos los tiempos.",
+    "link": "https://www.youtube.com/embed/hDNNmeeJs1Q"
+  },
+  {
+    "clave": "6",
+    "busqueda": "Stranger Things",
+    "titulo": "Stranger Things",
+    "enlace": "./descripcionSerie.html",
+    "contenido": "Stranger Things es una serie de televisión estadounidense de ciencia ficción y horror creada por los hermanos Duffer. Ambientada en la década de 1980 en el ficticio pueblo de Hawkins, Indiana, la serie sigue a un grupo de niños mientras investigan la desaparición de su amigo y se enfrentan a fuerzas sobrenaturales.",
+    "imagen": "./img/seriesposter/strangerthings.webp",
+    "opinion": "Stranger Things es una serie de televisión estadounidense de ciencia ficción y horror creada por los hermanos Duffer. Ambientada en la década de 1980 en el ficticio pueblo de Hawkins, Indiana, la serie sigue a un grupo de niños mientras investigan la desaparición de su amigo y se enfrentan a fuerzas sobrenaturales. La trama se desarrolla en torno a un universo paralelo conocido como el Upside Down y presenta referencias y homenajes a las películas y la cultura popular de los años 80, incluyendo el cine de Steven Spielberg, Stephen King y los videojuegos clásicos. Stranger Things captura perfectamente la atmósfera y la estética de la época, y se destaca por su equilibrio entre la nostalgia y la originalidad. Los personajes son carismáticos y están magníficamente interpretados por un elenco talentoso, que incluye a Winona Ryder, David Harbour, Millie Bobby Brown y Finn Wolfhard, entre otros. La serie combina elementos de ciencia ficción, horror, misterio y aventura, creando un cóctel emocionante que atrapa a los espectadores desde el primer episodio. Con su narrativa emocionante y giros inesperados, Stranger Things ha cautivado a audiencias de todo el mundo y se ha convertido en una de las series más populares y queridas de los últimos años.",
+    "link": "https://www.youtube.com/embed/b9EkMc79ZSU"
+  },
+  {
+    "clave": "7",
+    "busqueda": "The Office",
+    "titulo": "The Office",
+    "enlace": "./descripcionSerie.html",
+    "contenido": "The Office es una comedia de situación estadounidense que sigue la vida diaria de los empleados de la sucursal de Scranton de la compañía de papel Dunder Mifflin. La serie se presenta en formato de falso documental y se centra en las interacciones y dinámicas humorísticas entre los empleados de la oficina.",
+    "imagen": "./img/seriesposter/office.jpg",
+    "opinion": "The Office es una comedia de situación estadounidense que ha ganado gran reconocimiento y seguidores en todo el mundo. La serie se presenta en formato de falso documental y sigue la vida diaria de los empleados de la sucursal de Scranton de la compañía de papel Dunder Mifflin. A través de entrevistas en la cámara y tomas de estilo documental, The Office ofrece una visión hilarante de las interacciones y dinámicas en el lugar de trabajo. Los personajes, desde el excéntrico jefe Michael Scott hasta el sarcástico Jim Halpert, están llenos de humor y momentos memorables. La serie combina comedia, drama y momentos emocionales, creando un retrato auténtico y atractivo de la vida en una oficina. The Office ha dejado un legado duradero en la cultura popular y sigue siendo una opción popular para aquellos que buscan una buena risa y personajes entrañables.",
+    "link": "https://www.youtube.com/embed/6EfzpP2II6M"
+  },
+  {
+    "clave": "8",
+    "busqueda": "Game of Thrones",
+    "titulo": "Game of Thrones",
+    "enlace": "./descripcionSerie.html",
+    "contenido": "Game of Thrones es una serie de televisión estadounidense basada en las novelas de fantasía de George R.R. Martin. La serie se desarrolla en el continente ficticio de Westeros y sigue las intrigas políticas y las batallas por el control del Trono de Hierro entre varias familias nobles.",
+    "imagen": "./img/seriesposter/game.jpg",
+    "opinion": "Game of Thrones es una serie épica y de fantasía que ha cautivado a audiencias de todo el mundo. Basada en las novelas de George R.R. Martin, la serie se desarrolla en el continente ficticio de Westeros y sigue las intrigas políticas, las batallas y los dramas familiares de varias casas nobles mientras luchan por el control del Trono de Hierro. Con su narrativa compleja y giros sorprendentes, Game of Thrones se destaca por su meticulosa construcción del mundo, sus personajes memorables y sus escenas de batalla épicas. La serie aborda temas como el poder, la lealtad, la moralidad y la supervivencia, y no teme eliminar personajes principales de manera impactante. Game of Thrones ha sido aclamada por su producción de alta calidad, sus actuaciones destacadas y su capacidad para mantener a los espectadores en suspenso. Aunque la serie ha generado debates y opiniones divididas en su temporada final, sigue siendo un fenómeno cultural y ha dejado un impacto duradero en la televisión moderna.",
+    "link": "https://www.youtube.com/embed/s7L2PVdrb_8"
   }
 ]

@@ -87,6 +87,6 @@ if (contenedorSeries) {
       console.error("Error al cargar los datos:", error);
     });
 } else {
-  console.error("El elemento contenedorPeliculas no fue encontrado en el DOM.");
+  console.error("El elemento contenedorSeries no fue encontrado en el DOM.");
 }
 }

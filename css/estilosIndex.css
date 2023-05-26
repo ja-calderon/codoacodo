@@ -8,9 +8,10 @@
 
 body {
 
-  
+
   margin: 0;
 }
+
 .cabecera {
   display: flex;
   flex-direction: row;
@@ -21,12 +22,22 @@ body {
   padding: 0 1rem;
   background-color: var(--colorCabecera);
 }
+
+.cabeceraTitulo a {
+  text-decoration: none;
+}
+
+.cabeceraTitulo a h1 {
+  font-family: var(--fuentePrincipal);
+  font-size: 4vw;
+  color: var(--colorLetra);
+}
 .cabeceraTitulo h1 {
   font-family: var(--fuentePrincipal);
   font-size: 4vw;
   color: var(--colorLetra);
-  
 }
+
 .cabeceraEnlaces {
   display: flex;
   flex-direction: row;
@@ -35,30 +46,34 @@ body {
   align-items: center;
   align-content: center;
   margin: 0 1vw;
-  color: var(--colorLetra);
 }
+
 .cabeceraEnlacesItem {
   margin: 0 1vw;
   font-family: var(--fuenteSecundaria);
+  text-decoration: none;
+  color: var(--colorLetra);
 }
+
 /* .bannerPortada div{
   border-top: 0 solid transparent;
 	border-left: 100vh solid var(--colorCabecera);
 	border-bottom: 5rem solid transparent;
 } */
-.bannerPortada{
+.bannerPortada {
   display: block;
   width: 100vw;
   height: 60vh;
-  background-image:url(/img/fondo.png);
+  background-image: url(/img/fondo.png);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
 }
+
 /* .cuerpo {
 
 } */
-.subtitulo{
+.subtitulo {
   font-family: var(--fuenteAlternativa);
   font-size: 2vw;
   text-align: center;
@@ -69,15 +84,16 @@ body {
 
 .contenedor-tarjetas {
   max-width: 1400px;
-  display: grid; 
-  grid-template-columns: 17% 17% 17% 17%; 
-  grid-template-rows: 1fr; 
+  display: grid;
+  grid-template-columns: 17% 17% 17% 17%;
+  grid-template-rows: 1fr;
   gap: 1% 1%;
   justify-content: center;
-  align-content: center; 
+  align-content: center;
   padding: 1rem;
   margin: auto;
 }
+
 .textoBusqueda {
   font-size: 2rem;
   display: block;
@@ -85,14 +101,18 @@ body {
   margin: 0 auto;
   text-align: center;
   border: none;
-  border-bottom: 2px solid #000; /* Cambia el color a tu preferencia */
-  width: 80%; /* Ajusta el ancho según tus necesidades */
+  border-bottom: 2px solid #000;
+  /* Cambia el color a tu preferencia */
+  width: 80%;
+  /* Ajusta el ancho según tus necesidades */
   padding: 5px;
 }
+
 .textoBusqueda:focus {
   outline: none;
   border-bottom-color: transparent;
 }
+
 .textoBusqueda::placeholder {
   font-size: 2rem;
 }
@@ -103,7 +123,7 @@ body {
   max-height: 25rem;
   flex-grow: 1vw;
   display: grid;
-  grid-template-columns: 1fr; 
+  grid-template-columns: 1fr;
   grid-template-rows: 88% 7%;
   align-items: stretch;
   background-color: #455857;
@@ -115,7 +135,7 @@ body {
 
 .card img {
   width: 100%;
-  object-fit:cover;
+  object-fit: cover;
   border-radius: 10px;
   margin-bottom: .5vh;
 }
@@ -127,12 +147,13 @@ body {
   text-decoration: none;
   padding: 1%;
 }
-.card a h3{
+
+.card a h3 {
   font-family: var(--fuentePrincipal);
   font-weight: 500;
   text-align: center;
   color: var(--colorLetra);
-  width: 100%; 
+  width: 100%;
   font-size: 1rem;
   margin: 0;
 }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Butaca Crítica</title>
+    <link rel="stylesheet" href="./css/estilosIndex.css" />
+    <link rel="stylesheet" href="./css/estiloformulario.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="cabecera">
+        <div class="cabeceraTitulo">
+            <a href="./index.html"><h1>La Butaca Crítica</h1></a>
+          </div>
+        <div class="cabeceraEnlaces">
+            <a href="./seccionPeliculas.html" class="cabeceraEnlacesItem">
+                <h2>Películas</h2>
+            </a>
+            <a href="./seccionSeries.html" class="cabeceraEnlacesItem">
+                <h2>Series</h2>
+            </a>
+        </div>
+    </header>
+    <main class="cuerpo">
+        <section class="contenedorFormulario">
+            <h2 class="titulo">Formulario de contacto</h2>
+            <form action="" method="post" id="formulario" novalidate>
+                <div class="form-control">
+                    <label for="nombre" class="etiqueta">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" class="campo" />
+                    <span id="errorMessage"></span>
+                </div>
+                <div class="form-control">
+                    <label for="email" class="etiqueta">Email:</label>
+                    <input type="email" id="email" name="email" class="campo" />
+                    <span></span>
+                </div>
+                <div class="form-control">
+                    <label for="telefono" class="etiqueta">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" class="campo"/>
+                    <span></span>
+
+                </div>
+                <div class="form-control">
+                    <label for="mensaje" class="etiqueta">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" class="campo" ></textarea>
+                    <span></span>
+                </div>
+                <input type="submit" value="Enviar" class="boton" />
+            </form>
+        </section>
+    </main>
+    <footer class="piePagina">
+        <h1>Diseñado por Juan Calderon - 2023 - Codo a Codo</h1>
+    </footer>
+    <script src="./js/validarformulario.js"></script>
+</body>
+
+</html>

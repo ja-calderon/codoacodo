@@ -1,0 +1,108 @@
+:root {
+    --fuentePrincipal: "Cuprum", sans-serif;
+    --fuenteSecundaria: "Varela Round", sans-serif;
+    --fuenteAlternativa: "Schibsted Grotesk", sans-serif;
+    --colorCabecera: #181e25;
+    --colorLetra: #cdd5df;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 80% 10%;
+    gap: 0px 0px;
+    grid-template-areas:
+        "cabecera"
+        "cuerpo"
+        "piePagina";
+    align-content: space-around;
+}
+
+.cabecera {
+    grid-area: cabecera;
+}
+
+.cuerpo {
+    grid-area: cuerpo;
+}
+
+.contenedorFormulario {
+    width: 40vw;
+    margin: 5vh auto;
+    padding: 2rem;
+    background-color: #cdd5df;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .titulo {
+    text-align: center;
+    font-family: var(--fuentePrincipal);
+  }
+  
+  #formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .form-control{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+  .etiqueta {
+    display: block;
+    font-family: var(--fuenteSecundaria);
+  }
+  
+  .campo {
+    font-family: var(--fuentePrincipal);
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .boton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .boton:hover {
+    background-color: #45a049;
+  }
+  .form-control.error input,
+  .form-control.error textarea {
+    color: red;
+    border: 0.1px solid;
+    border-color: red;
+    margin: 0;
+  }
+  
+  .form-control.error span {
+    font-family: var(--fuenteSecundaria);
+    color: red;
+  }
+  
+  .form-control.success input {
+    color: green;
+    border-color: green;
+  }
+
+.piePagina {
+    grid-area: piePagina;
+    margin: 0;
+}
+
+.piePagina h1{
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+}
