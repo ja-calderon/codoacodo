@@ -16,7 +16,7 @@ if (inputText) {
 }
 
 function filtrarTarjetas(valor) {
-  const tarjetas = document.getElementsByClassName("card");
+  const tarjetas = document.getElementsByClassName("tarjeta");
   Array.from(tarjetas).forEach((tarjeta) => {
     const titulo = tarjeta.getElementsByTagName("h3")[0].textContent;
     if (!titulo.toLowerCase().includes(valor.toLowerCase())) {
@@ -61,6 +61,7 @@ function cargarTodasLasTarjetas() {
 
               // Crea el contenido interno de la tarjeta
               const enlace = document.createElement("a");
+              enlace.classList.add("tarjeta");
               const titulo = document.createElement("h3");
               const id_coleccion =
                 "clave=" + encodeURIComponent(elemento.clave);
@@ -74,12 +75,12 @@ function cargarTodasLasTarjetas() {
               imagen.alt = "Imagen de la tarjeta";
 
               // Agrega el contenido interno a la tarjeta
-              enlace.appendChild(titulo);
+              enlace.appendChild(pelicula);
               pelicula.appendChild(imagen);
-              pelicula.appendChild(enlace);
+              pelicula.appendChild(titulo);
 
               // Agrega la tarjeta al contenedor principal
-              contenedorPeliculas.appendChild(pelicula);
+              contenedorPeliculas.appendChild(enlace);
             })
             .catch((error) => {
               console.error("Error al procesar la respuesta de la API:", error);

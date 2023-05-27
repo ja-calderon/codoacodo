@@ -26,11 +26,12 @@ if (contenedorPeliculas) {
             const idPeli = movie ? movie.id : null;
 
             // Crea una nueva etiqueta de tarjeta (card)
+            const enlace = document.createElement("a");
             const pelicula = document.createElement("div");
             pelicula.classList.add("card");
 
             // Crea el contenido interno de la tarjeta
-            const enlace = document.createElement("a");
+
             const titulo = document.createElement("h3");
             const id_coleccion = "clave=" + encodeURIComponent(elemento.clave);
             const id_peliculaApi = "id=" + encodeURIComponent(idPeli);
@@ -43,12 +44,12 @@ if (contenedorPeliculas) {
             imagen.alt = "Imagen de la tarjeta";
 
             // Agrega el contenido interno a la tarjeta
-            enlace.appendChild(titulo);
+            enlace.appendChild(pelicula);
             pelicula.appendChild(imagen);
-            pelicula.appendChild(enlace);
+            pelicula.appendChild(titulo);
 
             // Agrega la tarjeta al contenedor principal
-            contenedorPeliculas.appendChild(pelicula);
+            contenedorPeliculas.appendChild(enlace);
           })
           .catch((error) => {
             console.error("Error al procesar la respuesta de la API:", error);

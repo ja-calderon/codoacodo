@@ -16,7 +16,7 @@ if (inputText) {
 }
 
 function filtrarTarjetas(valor) {
-  const tarjetas = document.getElementsByClassName("card");
+  const tarjetas = document.getElementsByClassName("tarjeta");
   Array.from(tarjetas).forEach((tarjeta) => {
     const titulo = tarjeta.getElementsByTagName("h3")[0].textContent;
     if (!titulo.toLowerCase().includes(valor.toLowerCase())) {
@@ -34,6 +34,7 @@ if (contenedorSeries) {
   fetch("datosSeries.json")
     .then((response) => response.json())
     .then((data) => {
+      contenedorSeries.innerHTML = "";
       data.forEach((elemento) => {
         const busqueda = elemento.busqueda;
         const options = {
@@ -59,6 +60,7 @@ if (contenedorSeries) {
 
             // Crea el contenido interno de la tarjeta
             const enlace = document.createElement("a");
+            enlace.classList.add("tarjeta");
             const titulo = document.createElement("h3");
             const id_coleccion = "clave=" + encodeURIComponent(elemento.clave);
             const id_serieApi = "id=" + encodeURIComponent(idSerie);
@@ -71,12 +73,12 @@ if (contenedorSeries) {
             imagen.alt = "Imagen de la tarjeta";
 
             // Agrega el contenido interno a la tarjeta
-            enlace.appendChild(titulo);
+            enlace.appendChild(serie);
             serie.appendChild(imagen);
-            serie.appendChild(enlace);
+            serie.appendChild(titulo);
 
             // Agrega la tarjeta al contenedor principal
-            contenedorSeries.appendChild(serie);
+            contenedorSeries.appendChild(enlace);
           })
           .catch((error) => {
             console.error("Error al procesar la respuesta de la API:", error);

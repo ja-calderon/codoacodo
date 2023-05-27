@@ -44,12 +44,12 @@ if (contenedorSeries) {
             imagen.alt = "Imagen de la tarjeta";
 
             // Agrega el contenido interno a la tarjeta
-            enlace.appendChild(titulo);
+            enlace.appendChild(serie);
             serie.appendChild(imagen);
-            serie.appendChild(enlace);
+            serie.appendChild(titulo);
 
             // Agrega la tarjeta al contenedor principal
-            contenedorSeries.appendChild(serie);
+            contenedorSeries.appendChild(enlace);
           })
           .catch((error) => {
             console.error("Error al procesar la respuesta de la API:", error);

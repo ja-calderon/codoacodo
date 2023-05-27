@@ -1,12 +1,18 @@
 :root {
-    --fuentePrincipal: "Cuprum", sans-serif;
-    --fuenteSecundaria: "Varela Round", sans-serif;
-    --fuenteAlternativa: "Schibsted Grotesk", sans-serif;
-    --colorCabecera: #181e25;
-    --colorLetra: #cdd5df;
+  --fuentePrincipal: "Cuprum", sans-serif;
+  --fuentePrincipalTitulo: 'Tsukimi Rounded', sans-serif;
+  --fuenteTitulos: 'Mohave', sans-serif;
+  --fuenteSecundaria: "Varela Round", sans-serif;
+  --fuenteAlternativa: "Schibsted Grotesk", sans-serif;
+  --colorCabecera: #181e25;
+  --colorLetra: #ffffff;
+
 }
 
-body {
+@media only screen and (max-width: 412px) {
+
+
+  body {
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -15,57 +21,354 @@ body {
     grid-template-rows: 10% 80% 10%;
     gap: 0px 0px;
     grid-template-areas:
-        "cabecera"
-        "cuerpo"
-        "piePagina";
+      "cabecera"
+      "cuerpo"
+      "piePagina";
     align-content: space-around;
-}
+  }
 
-.cabecera {
+  .cabecera {
     grid-area: cabecera;
-}
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 0 1rem;
+    background-color: var(--colorCabecera);
+    background-image: url(/img/fondo01.png);
+  }
+  
+  .cabeceraTitulo a {
+    text-decoration: none;
+  }
+  
+  .cabeceraTitulo a h1 {
+    font-family: var(--fuentePrincipalTitulo);
+    font-size: 3.8vh;
+    font-weight: 900;
+    color: var(--colorLetra);
+    text-shadow: -1px 11px 30px rgba(0,0,0,0.85);
+  }
+    
+  .cabeceraEnlaces {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 0 1vw;
+  }
+  
+  .cabeceraEnlacesItem {
+    margin: 0 1vw;
+    text-decoration: none;
+  }
+  .cabeceraEnlacesItem h2{
+    font-family: var(--fuenteSecundaria);
+    color: var(--colorLetra);
+    font-size: 3vh;
+    text-shadow: -1px 2px 30px rgba(0,0,0,0.85);
+  }
+  
 
-.cuerpo {
+  .cuerpo {
     grid-area: cuerpo;
-}
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+  }
 
-.contenedorFormulario {
-    width: 40vw;
-    margin: 5vh auto;
+  .contenedorFormulario {
     padding: 2rem;
     background-color: #cdd5df;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .titulo {
     text-align: center;
     font-family: var(--fuentePrincipal);
   }
-  
+
   #formulario {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  .form-control{
+
+  .form-control {
     width: 100%;
     display: flex;
     flex-direction: column;
-}
+  }
+
   .etiqueta {
     display: block;
     font-family: var(--fuenteSecundaria);
   }
-  
+
   .campo {
     font-family: var(--fuentePrincipal);
     padding: 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
   }
-  
+
+  .boton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+
+  .boton:hover {
+    background-color: #45a049;
+  }
+
+  .form-control.error input,
+  .form-control.error textarea {
+    color: red;
+    border: 0.1px solid;
+    border-color: red;
+    margin: 0;
+  }
+
+  .form-control.error span {
+    font-family: var(--fuenteSecundaria);
+    color: red;
+  }
+
+  .form-control.success input {
+    color: green;
+    border-color: green;
+  }
+
+  .piePagina {
+    grid-area: piePagina;
+    margin: 0;
+  }
+
+  .piePagina h1 {
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 413px) {
+  body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 80% 10%;
+    gap: 0px 0px;
+    grid-template-areas:
+      "cabecera"
+      "cuerpo"
+      "piePagina";
+    align-content: space-around;
+  }
+
+  .cabecera {
+    grid-area: cabecera;
+  }
+  .cabeceraTitulo a h1 {
+    font-family: var(--fuentePrincipalTitulo);
+    font-size: 3.8vh;
+    font-weight: 900;
+    color: var(--colorLetra);
+    text-shadow: 2px 1px 8px rgba(0,0,0,0.87);
+  }
+  .cabeceraEnlacesItem h2{
+    font-family: var(--fuenteSecundaria);
+    color: var(--colorLetra);
+    font-size: 3vh;
+    text-shadow: 2px 1px 8px rgba(0,0,0,0.87);
+  }
+
+  .cuerpo {
+    grid-area: cuerpo;
+  }
+
+  .contenedorFormulario {
+    width: 85vw;
+    margin: auto;
+    padding: 2rem;
+    background-color: #cdd5df;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: var(--fuentePrincipal);
+  }
+
+  #formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .form-control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .etiqueta {
+    display: block;
+    font-family: var(--fuenteSecundaria);
+    font-size: 1.5rem;
+  }
+
+  .campo {
+    font-family: var(--fuentePrincipal);
+    font-size: 2rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .boton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+
+  .boton:hover {
+    background-color: #45a049;
+  }
+
+  .form-control.error input,
+  .form-control.error textarea {
+    color: red;
+    border: 0.1px solid;
+    border-color: red;
+    margin: 0;
+  }
+
+  .form-control.error span {
+    font-family: var(--fuenteSecundaria);
+    color: red;
+  }
+
+  .form-control.success input {
+    color: green;
+    border-color: green;
+  }
+
+  .piePagina {
+    grid-area: piePagina;
+    margin: 0;
+  }
+
+  .piePagina h1 {
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 821px) {
+  body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 80% 10%;
+    gap: 0px 0px;
+    grid-template-areas:
+      "cabecera"
+      "cuerpo"
+      "piePagina";
+    align-content: space-around;
+  }
+
+  .cabecera {
+    grid-area: cabecera;
+  }
+  .cabeceraTitulo a h1 {
+    font-family: var(--fuentePrincipalTitulo);
+    font-size: 3.8vh;
+    font-weight: 900;
+    color: var(--colorLetra);
+    text-shadow: 2px 1px 8px rgba(0,0,0,0.87);
+  }
+  .cabeceraEnlacesItem h2{
+    font-family: var(--fuenteSecundaria);
+    color: var(--colorLetra);
+    font-size: 3vh;
+    text-shadow: 2px 1px 8px rgba(0,0,0,0.87);
+  }
+
+  .cuerpo {
+    grid-area: cuerpo;
+  }
+
+  .contenedorFormulario {
+    width: 40vw;
+    max-width: 900px;
+    margin: 5vh auto;
+    padding: 2rem;
+    background-color:var(--colorCabecera);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .titulo {
+    text-align: center;
+    font-family: var(--fuentePrincipalTitulo);
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  #formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .form-control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .etiqueta {
+    display: block;
+    font-family: var(--fuenteAlternativa);
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .campo {
+    font-family: var(--fuentePrincipal);
+    padding: 1rem;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+  }
+
   .boton {
     background-color: #4CAF50;
     color: white;
@@ -74,10 +377,11 @@ body {
     border-radius: 4px;
     cursor: pointer;
   }
-  
+
   .boton:hover {
     background-color: #45a049;
   }
+
   .form-control.error input,
   .form-control.error textarea {
     color: red;
@@ -85,24 +389,26 @@ body {
     border-color: red;
     margin: 0;
   }
-  
+
   .form-control.error span {
     font-family: var(--fuenteSecundaria);
     color: red;
   }
-  
+
   .form-control.success input {
     color: green;
     border-color: green;
   }
 
-.piePagina {
+  .piePagina {
     grid-area: piePagina;
     margin: 0;
-}
+  }
 
-.piePagina h1{
+  .piePagina h1 {
     margin: 0;
     font-size: 1rem;
     text-align: center;
+  }
+
 }

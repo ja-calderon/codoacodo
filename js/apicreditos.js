@@ -14,7 +14,7 @@ const options = {
 
 
 // Obtener el elemento del carrusel
-const carouselElement = document.getElementById('carrouselImagenes');
+const carouselElemento = document.getElementById('carrouselImagenes');
 
 // Hacer la solicitud a la API
 fetch(apiUrl, options)
@@ -30,23 +30,24 @@ fetch(apiUrl, options)
       contenedorActor.classList.add('contenedorActor');
 
       // Crear un elemento de imagen para cada actor
-      const imageElement = document.createElement('img');
-      imageElement.src = `https://image.tmdb.org/t/p/w200${actor.profile_path}`;
-      imageElement.alt = actor.name;
-      contenedorActor.appendChild(imageElement);
+      const imagenElemento = document.createElement('img');
+      imagenElemento.src = `https://image.tmdb.org/t/p/w200${actor.profile_path}`;
+      imagenElemento.alt = actor.name;
+      contenedorActor.appendChild(imagenElemento);
 
       // Crear un elemento de nombre para cada actor
-      const nameElement = document.createElement('p');
-      nameElement.textContent = actor.name;
-      contenedorActor.appendChild(nameElement);
+      const nombreElemento = document.createElement('p');
+      nombreElemento.classList.add("actorNombre");
+      nombreElemento.textContent = actor.name;
+      contenedorActor.appendChild(nombreElemento);
 
       // Crear un elemento de personaje para cada actor
-      const characterElement = document.createElement('p');
-      characterElement.textContent = actor.character;
-      contenedorActor.appendChild(characterElement);
+      const personajeElemento = document.createElement('p');
+      personajeElemento.textContent = actor.character;
+      contenedorActor.appendChild(personajeElemento);
 
       // Agregar el contenedor del actor al carrusel
-      carouselElement.appendChild(contenedorActor);
+      carouselElemento.appendChild(contenedorActor);
     });
   })
   .catch(err => console.error(err));

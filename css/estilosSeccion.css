@@ -5,7 +5,7 @@
   --fuenteSecundaria: "Varela Round", sans-serif;
   --fuenteAlternativa: "Schibsted Grotesk", sans-serif;
   --colorCabecera: #181e25;
-  --colorLetra: #ffffff;
+  --colorLetra: #cdd5df;
 }
 
 body {
@@ -23,7 +23,6 @@ body {
     align-content: center;
     padding: 0 1rem;
     background-color: var(--colorCabecera);
-    background-image: url(/img/fondo01.png);
   }
   
   .cabeceraTitulo a {
@@ -32,8 +31,7 @@ body {
   
   .cabeceraTitulo a h1 {
     font-family: var(--fuentePrincipal);
-    font-size: 5vh;
-    font-weight: bold;
+    font-size: 3vh;
     color: var(--colorLetra);
   }
     
@@ -58,7 +56,19 @@ body {
   }
   
   
+  .bannerPortada {
+    display: block;
+    width: 100vw;
+    height: 15vh;
+    background-image: url(/img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
   
+  /* .cuerpo {
+  
+  } */
   .subtitulo {
     font-family: var(--fuenteTitulos);
     font-size: 3vh;
@@ -79,6 +89,26 @@ body {
     margin: auto;
   }
   
+  .textoBusqueda {
+    font-size: 2rem;
+    display: block;
+    height: 3rem;
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #000;
+    width: 80%;
+    padding: 5px;
+  }
+  
+  .textoBusqueda:focus {
+    outline: none;
+    border-bottom-color: transparent;
+  }
+  
+  .textoBusqueda::placeholder {
+    font-size: 2rem;
+  }
   a {
     text-decoration: none;
   }
@@ -127,9 +157,20 @@ body {
 
 }
 @media only screen and (min-width: 413px) {
-  body{
-    display: flex;
-    flex-direction: column;
+
+   body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 80% 10%;
+    gap: 0px 0px;
+    grid-template-areas:
+        "cabecera"
+        "cuerpo"
+        "piePagina";
+    align-content: space-around;
   }
   .cabecera {
     display: flex;
@@ -140,7 +181,6 @@ body {
     align-content: center;
     padding: 0 1rem;
     background-color: var(--colorCabecera);
-    background-image: url(/img/fondo01.png);
   }
   
   .cabeceraTitulo a {
@@ -149,9 +189,7 @@ body {
   
   .cabeceraTitulo a h1 {
     font-family: var(--fuentePrincipalTitulo);
-    font-size: 5vh;
-    font-weight: 900;
-    text-shadow: -1px 1px 10px rgba(0,0,0,0.85);
+    font-size: 4vh;
     color: var(--colorLetra);
   }
     
@@ -173,25 +211,8 @@ body {
     font-family: var(--fuenteSecundaria);
     color: var(--colorLetra);
     font-size: 1.9vh;
-    text-shadow: -1px 1px 10px rgba(0,0,0,0.85);
   }
   
-  
-  .cuerpo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    
-  }
-  .subtitulo {
-    font-family: var(--fuenteTitulos);
-    font-size: 4vw;
-    text-align: center;
-    color: var(--colorLetra);
-    background-color: var(--colorCabecera);
-    padding: 1.3vw;
-  }
   
   .contenedor-tarjetas {
     display: grid;
@@ -201,16 +222,33 @@ body {
     justify-content: center;
     align-content: center;
     padding: 1rem;
-    margin: auto;
+    margin: 0;
   }
   
-
+  .textoBusqueda {
+    font-size: 2rem;
+    display: block;
+    height: 1rem;
+    margin: auto;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 2rem;
+  }
+  
+  .textoBusqueda:focus {
+    outline: none;
+    border-bottom-color: transparent;
+  }
+  
+  .textoBusqueda::placeholder {
+    font-size: 2rem;
+  }
   a {
     text-decoration: none;
   }
   .card {
-    height: 35vh;
-    flex-grow: 1vw;
+    height: 29vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 88% 7%;
@@ -228,15 +266,7 @@ body {
     border-radius: 10px;
     margin-bottom: .5vh;
   }
-  
-  .card a {
-    display: inline-block;
-    width: 98%;
-    height: 98%;
-    
-    padding: 1%;
-  }
-  
+   
   .card h3 {
     font-family: var(--fuentePrincipal);
     font-weight: 500;
@@ -248,18 +278,23 @@ body {
   }
   
   .piePagina {
-    background-color: var(--colorCabecera); 
+    background-color: var(--colorCabecera);
+    margin: 0;
   }
   .piePagina h1{
     font-size: 1rem;
     text-align: center;
     color: var(--colorLetra);
     font-family: var(--fuenteSecundaria);
-    padding: 4vh;
+    padding: 2vh;
   }
   
 }
 @media only screen and (min-width: 835px){
+  body {
+    display: flex;
+    flex-direction: column;
+  }
   .cabecera {
     display: flex;
     flex-direction: row;
@@ -269,7 +304,6 @@ body {
     align-content: center;
     padding: 0 1rem;
     background-color: var(--colorCabecera);
-    background-image: url(/img/fondo01.png);
   }
   
   .cabeceraTitulo a {
@@ -278,58 +312,8 @@ body {
   
   .cabeceraTitulo a h1 {
     font-family: var(--fuentePrincipalTitulo);
-    font-size: 4vh;
-    font-weight: 900;
+    font-size: 3vh;
     color: var(--colorLetra);
-    text-shadow: -1px 1px 20px rgba(0,0,0,0.85);
-    background-color: #0a0a0a;
-    padding: 1rem 2rem;
-    border-radius: 50% / 80%;
-    background: linear-gradient(202deg, #0084a7, #a9adad);
-    background-size: 400% 400%;
-
-    -webkit-animation: AnimationName 15s ease infinite;
-    -moz-animation: AnimationName 15s ease infinite;
-    animation: AnimationName 15s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:52% 0%}
-    50%{background-position:49% 100%}
-    100%{background-position:52% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:52% 0%}
-    50%{background-position:49% 100%}
-    100%{background-position:52% 0%}
-}
-@keyframes AnimationName {
-    0%{background-position:52% 0%}
-    50%{background-position:49% 100%}
-    100%{background-position:52% 0%}
-  }
-
-  .cabeceraTitulo a h1:hover{
-    position: relative;
-    animation: bounce 0.5s;
-  }
-  
-  @keyframes bounce {
-    0% {
-      transform: translateY(0);
-    }
-    25% {
-      transform: translateY(-10px);
-    }
-    50% {
-      transform: translateY(0);
-    }
-    75% {
-      transform: translateY(-5px);
-    }
-    100% {
-      transform: translateY(0);
-    }
   }
     
   .cabeceraEnlaces {
@@ -343,33 +327,30 @@ body {
   }
   
   .cabeceraEnlacesItem {
-    background: linear-gradient(to right,#455857 ,#000000);
-    width: 6rem;
-    color: #ffffff;
+    margin: 0 1vw;
     text-decoration: none;
-    padding: 0 2rem;
-    border: 1px solid #ffffff;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
-    .cabeceraEnlacesItem:hover{
-      background: linear-gradient(to right,#163950 ,#0b90b8);
-      background-color: #7a7a7a;
-    }
+  }
   .cabeceraEnlacesItem h2{
     font-family: var(--fuenteSecundaria);
     color: var(--colorLetra);
-    font-size: 2vh;
-    text-shadow: -1px 2px 30px rgba(0,0,0,0.85);
+    font-size: 1.9vh;
+  }
+  
+  
+  .bannerPortada {
+    display: block;
+    width: 100vw;
+    height: 60vh;
+    background-image: url(/img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   
 
-
   .subtitulo {
-    font-family: var(--fuenteTitulos);
-    font-size: 3vw;
+    font-family: var(--fuenteAlternativa);
+    font-size: 2vw;
     text-align: center;
     color: var(--colorLetra);
     background-color: var(--colorCabecera);
@@ -388,11 +369,32 @@ body {
     margin: auto;
   }
   
- 
+  .textoBusqueda {
+    font-size: 2rem;
+    display: block;
+    height: 3rem;
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #000;
+    width: 80%;
+    max-width: 1300px;
+    padding: 5px;
+  }
+  
+  .textoBusqueda:focus {
+    outline: none;
+    border-bottom-color: transparent;
+  }
+  
+  .textoBusqueda::placeholder {
+    font-size: 2rem;
+  }
+  
   .card {
-    height: 40vh;
-    max-width: 13rem;
-    max-height: 25rem;
+    height: 45vh;
+    max-width: 16rem;
+    max-height: 30rem;
     flex-grow: 1vw;
     display: grid;
     grid-template-columns: 1fr;
@@ -404,10 +406,6 @@ body {
     padding: 0;
     overflow: hidden
   }
-  .card img:hover{
-    transform: scale(1.5);
-    transition: transform 0.3s ease;
-  }
   
   .card img {
     width: 100%;
@@ -415,7 +413,10 @@ body {
     border-radius: 10px;
     margin-bottom: .5vh;
   }
-  
+  .card img:hover{
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+  }
   .card a {
     display: inline-block;
     width: 98%;
@@ -435,13 +436,10 @@ body {
   }
   
   .piePagina {
-    background-color: var(--colorCabecera); 
-  }
-  .piePagina h1{
-    font-size: 1rem;
-    text-align: center;
+    background-color: var(--colorCabecera);
     color: var(--colorLetra);
     font-family: var(--fuenteSecundaria);
-    padding: 3vh;
+    height: auto;
+    padding: 1vh;
   }
 }
