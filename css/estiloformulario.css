@@ -293,7 +293,7 @@
     padding: 0;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10% 80% 10%;
+    grid-template-rows: 15% 80% 10%;
     gap: 0px 0px;
     grid-template-areas:
       "cabecera"
@@ -307,7 +307,7 @@
   }
   .cabeceraTitulo a h1 {
     font-family: var(--fuentePrincipalTitulo);
-    font-size: 3.8vh;
+    font-size: 2.5vh;
     font-weight: 900;
     color: var(--colorLetra);
     text-shadow: 2px 1px 8px rgba(0,0,0,0.87);
@@ -315,17 +315,18 @@
   .cabeceraEnlacesItem h2{
     font-family: var(--fuenteSecundaria);
     color: var(--colorLetra);
-    font-size: 3vh;
+    font-size: 2.5vh;
     text-shadow: 2px 1px 8px rgba(0,0,0,0.87);
   }
 
   .cuerpo {
     grid-area: cuerpo;
+    overflow: scroll;
+    display: flex;
   }
 
   .contenedorFormulario {
-    width: 40vw;
-    max-width: 900px;
+    max-width: 850px;
     margin: 5vh auto;
     padding: 2rem;
     background-color:var(--colorCabecera);
@@ -338,7 +339,7 @@
     text-align: center;
     font-family: var(--fuentePrincipalTitulo);
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 0;
   }
 
@@ -358,13 +359,14 @@
     display: block;
     font-family: var(--fuenteAlternativa);
     color: #ffffff;
-    font-size: 1.2rem;
-    margin-top: 1rem;
+    font-size: .9rem;
+    margin-top: .5rem;
   }
 
   .campo {
-    font-family: var(--fuentePrincipal);
-    padding: 1rem;
+
+    font-size: 1rem;
+    padding: .5rem;
     border: 1px solid #ffffff;
     border-radius: 4px;
   }
