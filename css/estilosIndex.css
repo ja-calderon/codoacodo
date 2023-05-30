@@ -402,18 +402,18 @@ body {
   .contenedor-tarjetas {
     max-width: 1400px;
     display: grid;
-    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-columns: 23% 23% 23% 23%;
     grid-template-rows: 1fr;
     gap: 1% 1%;
     justify-content: center;
+    justify-items: center;
     align-content: center;
     padding: 1rem;
     margin: auto;
   }
 
   .card {
-    height: 40vh;
-    max-width: 13rem;
+    height: 60vh;
     max-height: 25rem;
     flex-grow: 1vw;
     display: grid;
@@ -438,15 +438,15 @@ body {
     margin-bottom: 0.5vh;
   }
 
-  .card a {
-    display: inline-block;
-    width: 98%;
-    height: 98%;
+  a {
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
     padding: 1%;
+    max-width: 13rem;
   }
 
-  .card a h3 {
+  .card h3 {
     font-family: var(--fuentePrincipal);
     font-weight: 500;
     text-align: center;
