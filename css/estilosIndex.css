@@ -1,7 +1,7 @@
 :root {
   --fuentePrincipal: "Cuprum", sans-serif;
-  --fuentePrincipalTitulo: 'Tsukimi Rounded', sans-serif;
-  --fuenteTitulos: 'Mohave', sans-serif;
+  --fuentePrincipalTitulo: "Tsukimi Rounded", sans-serif;
+  --fuenteTitulos: "Mohave", sans-serif;
   --fuenteSecundaria: "Varela Round", sans-serif;
   --fuenteAlternativa: "Schibsted Grotesk", sans-serif;
   --colorCabecera: #181e25;
@@ -9,8 +9,6 @@
 }
 
 body {
-
-
   margin: 0;
 }
 @media only screen and (max-width: 412px) {
@@ -25,18 +23,18 @@ body {
     background-color: var(--colorCabecera);
     background-image: url(/img/fondo01.png);
   }
-  
+
   .cabeceraTitulo a {
     text-decoration: none;
   }
-  
+
   .cabeceraTitulo a h1 {
     font-family: var(--fuentePrincipal);
     font-size: 5vh;
     font-weight: bold;
     color: var(--colorLetra);
   }
-    
+
   .cabeceraEnlaces {
     display: flex;
     flex-direction: row;
@@ -46,19 +44,17 @@ body {
     align-content: center;
     margin: 0 1vw;
   }
-  
+
   .cabeceraEnlacesItem {
     margin: 0 1vw;
     text-decoration: none;
   }
-  .cabeceraEnlacesItem h2{
+  .cabeceraEnlacesItem h2 {
     font-family: var(--fuenteSecundaria);
     color: var(--colorLetra);
     font-size: 1.9vh;
   }
-  
-  
-  
+
   .subtitulo {
     font-family: var(--fuenteTitulos);
     font-size: 3vh;
@@ -67,10 +63,10 @@ body {
     background-color: var(--colorCabecera);
     padding: 1.3vw;
   }
-  
+
   .contenedor-tarjetas {
     display: grid;
-    grid-template-columns: 50% 50% ;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 1fr;
     gap: 1% 1%;
     justify-content: center;
@@ -78,7 +74,7 @@ body {
     padding: 2rem 1rem;
     margin: auto;
   }
-  
+
   a {
     text-decoration: none;
   }
@@ -88,10 +84,10 @@ body {
     text-align: center;
     color: var(--colorLetra);
     width: 100%;
-    font-size: .9rem;
+    font-size: 0.9rem;
     margin: 0;
   }
-  
+
   .card {
     height: 45vh;
     max-height: 25rem;
@@ -104,16 +100,16 @@ body {
     border-radius: 10px;
     margin: 0;
     padding: 0;
-    overflow: hidden
+    overflow: hidden;
   }
-  
+
   .card img {
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
-    margin-bottom: .5vh;
+    margin-bottom: 0.5vh;
   }
- 
+
   .piePagina {
     background-color: var(--colorCabecera);
     color: var(--colorLetra);
@@ -121,13 +117,12 @@ body {
     height: auto;
     padding: 3vh;
   }
-  .piePagina h1{
+  .piePagina h1 {
     font-size: 0.8rem;
   }
-
 }
 @media only screen and (min-width: 413px) {
-  body{
+  body {
     display: flex;
     flex-direction: column;
   }
@@ -142,19 +137,19 @@ body {
     background-color: var(--colorCabecera);
     background-image: url(/img/fondo01.png);
   }
-  
+
   .cabeceraTitulo a {
     text-decoration: none;
   }
-  
+
   .cabeceraTitulo a h1 {
     font-family: var(--fuentePrincipalTitulo);
     font-size: 5vh;
     font-weight: 900;
-    text-shadow: -1px 1px 10px rgba(0,0,0,0.85);
+    text-shadow: -1px 1px 10px rgba(0, 0, 0, 0.85);
     color: var(--colorLetra);
   }
-    
+
   .cabeceraEnlaces {
     display: flex;
     flex-direction: row;
@@ -164,19 +159,18 @@ body {
     align-content: center;
     margin: 0 1vw;
   }
-  
+
   .cabeceraEnlacesItem {
     margin: 0 1vw;
     text-decoration: none;
   }
-  .cabeceraEnlacesItem h2{
+  .cabeceraEnlacesItem h2 {
     font-family: var(--fuenteSecundaria);
     color: var(--colorLetra);
     font-size: 1.9vh;
-    text-shadow: -1px 1px 10px rgba(0,0,0,0.85);
+    text-shadow: -1px 1px 10px rgba(0, 0, 0, 0.85);
   }
-  
-  
+
   .cuerpo {
     display: flex;
     flex-direction: column;
@@ -185,9 +179,9 @@ body {
     align-content: center;
     align-items: center;
   }
-.contenido{
-  width: 100%;
-}
+  .contenido {
+    width: 100%;
+  }
 
   .subtitulo {
     font-family: var(--fuenteTitulos);
@@ -197,7 +191,7 @@ body {
     background-color: var(--colorCabecera);
     padding: 1.3vw;
   }
-  
+
   .contenedor-tarjetas {
     display: grid;
     grid-template-columns: 24% 24% 24% 24%;
@@ -208,9 +202,10 @@ body {
     padding: 1rem;
     margin: auto;
   }
-  
 
   a {
+    display: flex;
+    justify-content: center;
     text-decoration: none;
   }
   .card {
@@ -224,24 +219,24 @@ body {
     border-radius: 10px;
     margin: 0;
     padding: 0;
-    overflow: hidden
+    overflow: hidden;
   }
-  
+
   .card img {
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
-    margin-bottom: .5vh;
+    margin-bottom: 0.5vh;
   }
-  
+
   .card a {
     display: inline-block;
     width: 98%;
     height: 98%;
-    
+
     padding: 1%;
   }
-  
+
   .card h3 {
     font-family: var(--fuentePrincipal);
     font-weight: 500;
@@ -251,20 +246,19 @@ body {
     font-size: 1rem;
     margin: 0;
   }
-  
+
   .piePagina {
-    background-color: var(--colorCabecera); 
+    background-color: var(--colorCabecera);
   }
-  .piePagina h1{
+  .piePagina h1 {
     font-size: 1rem;
     text-align: center;
     color: var(--colorLetra);
     font-family: var(--fuenteSecundaria);
     padding: 4vh;
   }
-  
 }
-@media only screen and (min-width: 835px){
+@media only screen and (min-width: 835px) {
   .cabecera {
     display: flex;
     flex-direction: row;
@@ -276,17 +270,17 @@ body {
     background-color: var(--colorCabecera);
     background-image: url(/img/fondo01.png);
   }
-  
+
   .cabeceraTitulo a {
     text-decoration: none;
   }
-  
+
   .cabeceraTitulo a h1 {
     font-family: var(--fuentePrincipalTitulo);
     font-size: 4vh;
     font-weight: 900;
     color: var(--colorLetra);
-    text-shadow: -1px 1px 20px rgba(0,0,0,0.85);
+    text-shadow: -1px 1px 20px rgba(0, 0, 0, 0.85);
     background-color: #0a0a0a;
     padding: 1rem 2rem;
     border-radius: 50% / 80%;
@@ -296,29 +290,47 @@ body {
     -webkit-animation: AnimationName 15s ease infinite;
     -moz-animation: AnimationName 15s ease infinite;
     animation: AnimationName 15s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:52% 0%}
-    50%{background-position:49% 100%}
-    100%{background-position:52% 0%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:52% 0%}
-    50%{background-position:49% 100%}
-    100%{background-position:52% 0%}
-}
-@keyframes AnimationName {
-    0%{background-position:52% 0%}
-    50%{background-position:49% 100%}
-    100%{background-position:52% 0%}
   }
 
-  .cabeceraTitulo a h1:hover{
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 52% 0%;
+    }
+    50% {
+      background-position: 49% 100%;
+    }
+    100% {
+      background-position: 52% 0%;
+    }
+  }
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 52% 0%;
+    }
+    50% {
+      background-position: 49% 100%;
+    }
+    100% {
+      background-position: 52% 0%;
+    }
+  }
+  @keyframes AnimationName {
+    0% {
+      background-position: 52% 0%;
+    }
+    50% {
+      background-position: 49% 100%;
+    }
+    100% {
+      background-position: 52% 0%;
+    }
+  }
+
+  .cabeceraTitulo a h1:hover {
     position: relative;
     animation: bounce 0.5s;
   }
-  
+
   @keyframes bounce {
     0% {
       transform: translateY(0);
@@ -336,7 +348,7 @@ body {
       transform: translateY(0);
     }
   }
-    
+
   .cabeceraEnlaces {
     display: flex;
     flex-direction: row;
@@ -346,9 +358,9 @@ body {
     align-content: center;
     margin: 0 1vw;
   }
-  
+
   .cabeceraEnlacesItem {
-    background: linear-gradient(to right,#455857 ,#000000);
+    background: linear-gradient(to right, #455857, #000000);
     width: 6rem;
     color: #ffffff;
     text-decoration: none;
@@ -358,19 +370,25 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    }
-    .cabeceraEnlacesItem:hover{
-      background: linear-gradient(to right,#163950 ,#0b90b8);
-      background-color: #7a7a7a;
-    }
-  .cabeceraEnlacesItem h2{
+  }
+  .cabeceraEnlacesItem:hover {
+    background: linear-gradient(to right, #163950, #0b90b8);
+    background-color: #7a7a7a;
+  }
+  .cabeceraEnlacesItem h2 {
     font-family: var(--fuenteSecundaria);
     color: var(--colorLetra);
     font-size: 2vh;
-    text-shadow: -1px 2px 30px rgba(0,0,0,0.85);
+    text-shadow: -1px 2px 30px rgba(0, 0, 0, 0.85);
   }
-  
-
+  .cuerpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+  }
 
   .subtitulo {
     font-family: var(--fuenteTitulos);
@@ -380,7 +398,7 @@ body {
     background-color: var(--colorCabecera);
     padding: 1.3vw;
   }
-  
+
   .contenedor-tarjetas {
     max-width: 1400px;
     display: grid;
@@ -392,8 +410,7 @@ body {
     padding: 1rem;
     margin: auto;
   }
-  
- 
+
   .card {
     height: 40vh;
     max-width: 13rem;
@@ -407,20 +424,20 @@ body {
     border-radius: 10px;
     margin: 0;
     padding: 0;
-    overflow: hidden
+    overflow: hidden;
   }
-  .card img:hover{
+  .card img:hover {
     transform: scale(1.5);
     transition: transform 0.3s ease;
   }
-  
+
   .card img {
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
-    margin-bottom: .5vh;
+    margin-bottom: 0.5vh;
   }
-  
+
   .card a {
     display: inline-block;
     width: 98%;
@@ -428,7 +445,7 @@ body {
     text-decoration: none;
     padding: 1%;
   }
-  
+
   .card a h3 {
     font-family: var(--fuentePrincipal);
     font-weight: 500;
@@ -438,11 +455,11 @@ body {
     font-size: 1rem;
     margin: 0;
   }
-  
+
   .piePagina {
-    background-color: var(--colorCabecera); 
+    background-color: var(--colorCabecera);
   }
-  .piePagina h1{
+  .piePagina h1 {
     font-size: 1rem;
     text-align: center;
     color: var(--colorLetra);
