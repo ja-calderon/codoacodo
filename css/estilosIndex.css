@@ -135,7 +135,7 @@ body {
     align-content: center;
     padding: 0 1rem;
     background-color: var(--colorCabecera);
-    background-image: url("/img/fondo01.png");
+    background-image: url("img/fondo01.png");
   }
 
   .cabeceraTitulo a {
@@ -268,7 +268,7 @@ body {
     align-content: center;
     padding: 0 1rem;
     background-color: var(--colorCabecera);
-    background-image: url("../img/fondo01.png");
+    background-image: url("img\fondo01.png");
   }
 
   .cabeceraTitulo a {
